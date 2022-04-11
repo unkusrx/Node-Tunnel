@@ -1,0 +1,3 @@
+FROM ghcr.io/devilld/uvn:nightly
+WORKDIR /usr/src/app
+CMD ["npm", "start"]
